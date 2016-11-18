@@ -1,5 +1,0 @@
-E:\MyProject\lasercuttermachine\LasercuttingmachineUI\OptimalDesignLibrary\bin\Debug\OptimalDesignLibrary.dll
-E:\MyProject\lasercuttermachine\LasercuttingmachineUI\OptimalDesignLibrary\bin\Debug\OptimalDesignLibrary.pdb
-E:\MyProject\lasercuttermachine\LasercuttingmachineUI\OptimalDesignLibrary\obj\Debug\OptimalDesignLibrary.csprojResolveAssemblyReference.cache
-E:\MyProject\lasercuttermachine\LasercuttingmachineUI\OptimalDesignLibrary\obj\Debug\OptimalDesignLibrary.dll
-E:\MyProject\lasercuttermachine\LasercuttingmachineUI\OptimalDesignLibrary\obj\Debug\OptimalDesignLibrary.pdb

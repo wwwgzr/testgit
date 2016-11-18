@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<MacroRegAddressLib><MacroRegAddress Name="Set" OperationMode="1" DataType="bit" ArrayNumber="1"><Address Function="Set" UseIndexAddr="0" ImportTag="No"><RegAddr MasterValue="0" SlaveValue="0" MasterValueType="0" WordCount="1"><HMIID UsagePort="1">1</HMIID><PLCID>0</PLCID><AddressType SystemID="9">W_bit</AddressType><AddressValue Type="Bit" Length="1" CodeType="0">0.00</AddressValue><Priority>普通</Priority></RegAddr></Address></MacroRegAddress></MacroRegAddressLib>
