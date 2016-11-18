@@ -1,0 +1,16 @@
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.csprojResolveAssemblyReference.cache
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.Properties.Resources.resources
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.csproj.GenerateResource.Cache
+E:\MyProject\netdxf\GraphicModule\bin\Debug\GraphicModule.exe
+E:\MyProject\netdxf\GraphicModule\bin\Debug\GraphicModule.pdb
+E:\MyProject\netdxf\GraphicModule\bin\Debug\netDxf.dll
+E:\MyProject\netdxf\GraphicModule\bin\Debug\netDxf.pdb
+E:\MyProject\netdxf\GraphicModule\bin\Debug\netDxf.xml
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.exe
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.pdb
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.Form1.resources
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.csproj.ResolveComReference.cache
+E:\MyProject\netdxf\GraphicModule\bin\Debug\DrawGraphicsDxf.dll
+E:\MyProject\netdxf\GraphicModule\bin\Debug\DrawGraphicsDxf.pdb
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.Form2.resources
+E:\MyProject\netdxf\GraphicModule\obj\Debug\GraphicModule.PaintingPanel.resources

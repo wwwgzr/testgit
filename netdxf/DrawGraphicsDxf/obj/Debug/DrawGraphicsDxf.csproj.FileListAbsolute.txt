@@ -1,0 +1,10 @@
+E:\MyProject\netdxf\DrawGraphicsDxf\obj\Debug\DrawGraphicsDxf.csprojResolveAssemblyReference.cache
+E:\MyProject\netdxf\DrawGraphicsDxf\obj\Debug\DrawGraphicsDxf.Properties.Resources.resources
+E:\MyProject\netdxf\DrawGraphicsDxf\obj\Debug\DrawGraphicsDxf.csproj.GenerateResource.Cache
+E:\MyProject\netdxf\DrawGraphicsDxf\bin\Debug\DrawGraphicsDxf.dll
+E:\MyProject\netdxf\DrawGraphicsDxf\bin\Debug\DrawGraphicsDxf.pdb
+E:\MyProject\netdxf\DrawGraphicsDxf\bin\Debug\netDxf.dll
+E:\MyProject\netdxf\DrawGraphicsDxf\bin\Debug\netDxf.pdb
+E:\MyProject\netdxf\DrawGraphicsDxf\bin\Debug\netDxf.xml
+E:\MyProject\netdxf\DrawGraphicsDxf\obj\Debug\DrawGraphicsDxf.dll
+E:\MyProject\netdxf\DrawGraphicsDxf\obj\Debug\DrawGraphicsDxf.pdb

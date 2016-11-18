@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PlotCenter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PlotCenter.res" /d "NDEBUG" "E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenter.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB2.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PlotCenter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\DPoint.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\FileDlg.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\FileFixedPrint.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\FolderDialog.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\Instruct.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\Line.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\NetworkSetup.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PictureDlg.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotBitmap.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenter.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenterDlg.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotListCtrl.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotThread.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\SelectDialog.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\SetupPicture.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\SetupPlotter.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\UnzipFile.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\UnzipFile_Memory.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\VerifyCopies.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ViewHistory.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZipCompress.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZipException.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZipFile.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZipFile_Memory.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZipStruct.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZUBaseFile.cpp"
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\ZUBaseFile_Memory.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB3.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PlotCenter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB4.tmp" with contents
+[
+CH375DLL.LIB GdiPlus.lib ZLIB.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/PlotCenter.pdb" /machine:I386 /out:"Release/PlotCenter.exe" 
+".\Release\DPoint.obj"
+".\Release\FileDlg.obj"
+".\Release\FileFixedPrint.obj"
+".\Release\FolderDialog.obj"
+".\Release\Instruct.obj"
+".\Release\Line.obj"
+".\Release\NetworkSetup.obj"
+".\Release\PictureDlg.obj"
+".\Release\PlotBitmap.obj"
+".\Release\PlotCenter.obj"
+".\Release\PlotCenterDlg.obj"
+".\Release\PlotListCtrl.obj"
+".\Release\PlotThread.obj"
+".\Release\SelectDialog.obj"
+".\Release\SetupPicture.obj"
+".\Release\SetupPlotter.obj"
+".\Release\StdAfx.obj"
+".\Release\UnzipFile.obj"
+".\Release\UnzipFile_Memory.obj"
+".\Release\VerifyCopies.obj"
+".\Release\ViewHistory.obj"
+".\Release\ZipCompress.obj"
+".\Release\ZipException.obj"
+".\Release\ZipFile.obj"
+".\Release\ZipFile_Memory.obj"
+".\Release\ZipStruct.obj"
+".\Release\ZUBaseFile.obj"
+".\Release\ZUBaseFile_Memory.obj"
+".\Release\PlotCenter.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBB4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+E:\郭子瑞\资料\新建文件夹\2.VC6.0软件开发环境配置\VC++6.0完整绿色版\VC++6.0完整绿色版\VC98\INCLUDE/dlgs.h(142) : 警告 RC4005: 'stc32' : redefinition
+Compiling...
+StdAfx.cpp
+Compiling...
+DPoint.cpp
+FileDlg.cpp
+FileFixedPrint.cpp
+FolderDialog.cpp
+Instruct.cpp
+Line.cpp
+NetworkSetup.cpp
+PictureDlg.cpp
+E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PictureDlg.cpp(1988) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+PlotBitmap.cpp
+PlotCenter.cpp
+PlotCenterDlg.cpp
+E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenterDlg.cpp(5532) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenterDlg.cpp(5571) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+PlotListCtrl.cpp
+PlotThread.cpp
+SelectDialog.cpp
+SetupPicture.cpp
+SetupPlotter.cpp
+UnzipFile.cpp
+UnzipFile_Memory.cpp
+VerifyCopies.cpp
+ViewHistory.cpp
+Generating Code...
+E:\MyProject\绘图仪\PlotterCenterV2.56 - 文件合并+位图+实时显示\PlotCenterDlg.cpp(533) : warning C4700: local variable 'retval' used without having been initialized
+Compiling...
+ZipCompress.cpp
+ZipException.cpp
+ZipFile.cpp
+ZipFile_Memory.cpp
+ZipStruct.cpp
+ZUBaseFile.cpp
+ZUBaseFile_Memory.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+PlotCenter.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

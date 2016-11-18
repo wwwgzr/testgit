@@ -1,0 +1,1017 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PlotCenter.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\PlotCenter.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 186, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 PlotCenter"
+FONT 10, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,17,20,20
+    LTEXT           "PlotCutCenter V1.13Beta1",IDC_STATIC,45,10,72,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC1,45,25,91,8
+    DEFPUSHBUTTON   "确定",IDOK,130,7,41,14,WS_GROUP
+    LTEXT           "日期:",IDC_STATIC2,45,40,21,9
+    LTEXT           "WEB:www.richpeace.com",IDC_STATIC,45,56,92,10
+    LTEXT           "V1.10",IDC_STATIC,16,40,21,8
+    LTEXT           "2015-04-08",IDC_STATIC,66,40,41,10
+END
+
+IDD_PLOTCENTER_DIALOG DIALOGEX 0, 0, 382, 203
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "切绘中心(V1.13Beta1)"
+MENU IDR_MAINMENU
+FONT 10, "幼圆", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_PLOTITEM,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,5,14,371,155
+    LTEXT           "总文件数:",IDC_TFILE,5,173,45,10
+    LTEXT           "",IDC_TOTALFILE,55,174,54,9,0,WS_EX_STATICEDGE
+    RTEXT           "总长度:",IDC_TLENGTH,233,173,57,10
+    LTEXT           "",IDC_TOTALLENGTH,300,174,73,9,0,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PRINTSTATE,"msctls_progress32",0x0,55,
+                    188,284,11
+    CTEXT           "未连接",IDC_CONNECTSTATE,343,188,30,10,NOT WS_GROUP,
+                    WS_EX_STATICEDGE
+    LTEXT           "打印进度:",IDC_STATIC1,5,189,45,11
+END
+
+IDD_PICTURE DIALOGEX 0, 0, 330, 218
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "图形"
+FONT 10, "幼圆", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "绘制",ID_DRAW,296,201,26,13
+    LTEXT           "X:",IDC_STATICX,2,203,9,8,NOT WS_GROUP
+    LTEXT           "",IDC_TOTALX,13,203,47,11,NOT WS_GROUP,WS_EX_STATICEDGE
+    LTEXT           "Y:",IDC_STATICY,66,203,8,9,NOT WS_GROUP
+    LTEXT           "",IDC_TOTALY,77,203,48,11,NOT WS_GROUP,WS_EX_STATICEDGE
+    RTEXT           "起始绘制点:",IDC_STARTPOINT,129,203,49,10,NOT WS_GROUP
+    EDITTEXT        IDC_FIXEDPOINT,180,202,43,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_MM,225,203,10,11,NOT WS_GROUP
+    RTEXT           "份数:",IDC_NUM,237,203,29,9,NOT WS_GROUP
+    EDITTEXT        IDC_COPYNUM,267,202,22,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DRAWPICTURE,"Static",SS_WHITERECT,3,4,323,194,
+                    WS_EX_STATICEDGE
+END
+
+IDD_NETWORKSETUP DIALOGEX 0, 0, 180, 83
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "网口设置"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,137,26,31,14
+    PUSHBUTTON      "取消",IDCANCEL,137,50,31,14
+    GROUPBOX        "绘图仪IP设置",IDC_PlotterIP,7,7,166,69
+    LTEXT           "IP地址:",IDC_IPDIZHI,13,24,41,10
+    LTEXT           "子网掩码:",IDC_MASKDIZHI,11,42,44,10
+    LTEXT           "网关:",IDC_GATEWAYDIZHI,12,59,42,10
+    CONTROL         "IPAddress1",IDC_REMOTEIP,"SysIPAddress32",WS_TABSTOP,57,
+                    23,69,10
+    CONTROL         "IPAddress1",IDC_SUBNETMASK,"SysIPAddress32",WS_TABSTOP,
+                    57,41,69,10
+    CONTROL         "IPAddress1",IDC_GATEWAYIP,"SysIPAddress32",WS_TABSTOP,
+                    57,59,69,10
+END
+
+IDD_SETUPPLOTTER DIALOGEX 0, 0, 237, 295
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "切割机设置"
+FONT 10, "幼圆", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,50,274,45,12
+    PUSHBUTTON      "取消",IDCANCEL,126,274,48,13
+    GROUPBOX        "喷头选择",IDC_STATIC2,15,65,111,27
+    CONTROL         "1号喷头",IDC_SPRAY1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,78,41,11
+    CONTROL         "2号喷头",IDC_SPRAY2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,75,78,41,11
+    GROUPBOX        "打印模式选择",IDC_STATIC1,129,65,93,27
+    CONTROL         "单向",IDC_UNIDIRECTIONAL,"Button",BS_AUTORADIOBUTTON,
+                    133,80,42,9
+    CONTROL         "双向",IDC_BIDIRECTIONAL,"Button",BS_AUTORADIOBUTTON,180,
+                    80,39,10
+    GROUPBOX        "喷头间误差设置",IDC_STATIC6,14,143,208,47
+    LTEXT           "喷头间错位误差:",IDC_STATIC7,19,156,66,11
+    EDITTEXT        IDC_SPRAYERRORY12,89,156,36,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC10,129,156,16,10
+    LTEXT           "喷头间重叠误差:",IDC_STATIC13,19,170,62,11
+    EDITTEXT        IDC_SPRAYERRORX12,89,170,36,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC16,129,170,16,10
+    PUSHBUTTON      "打印误差修正图",IDC_SPRAYERROR,154,160,62,13
+    GROUPBOX        "双向打印误差设置",IDC_STATIC3,14,95,208,46
+    LTEXT           "双向打印错位误差:",IDC_STATIC4,19,108,69,11
+    EDITTEXT        IDC_MALPOSEDERROR,89,106,41,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,133,106,11,10
+    LTEXT           "打印图形宽度:",IDC_STATIC5,19,122,65,11
+    EDITTEXT        IDC_GRAPHWIDTH,89,122,41,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,133,124,10,10
+    PUSHBUTTON      "打印误差修正图",IDC_PMALPOSEDGRAPH,154,112,62,12
+    GROUPBOX        "图形误差修正",IDC_PLOTTERERROR,14,194,208,73
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,24,208,24,12
+    RTEXT           "1米实际输出:",IDC_OUTPUTY,47,209,51,9
+    EDITTEXT        IDC_PLOTTERYERROR,100,209,39,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,142,209,12,9
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,24,224,24,12
+    RTEXT           "1米实际输出:",IDC_OUTPUTX,47,225,51,9
+    EDITTEXT        IDC_PLOTTERXERROR,100,224,39,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,142,225,12,9
+    GROUPBOX        "笔号设置",IDC_STATIC22,14,34,208,27
+    EDITTEXT        IDC_MALPOSEDERROR2,53,45,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MALPOSEDERROR3,150,45,41,12,ES_AUTOHSCROLL
+    RTEXT           "笔号：",IDC_STATIC17,22,47,28,9
+    RTEXT           "刀号:",IDC_STATIC18,109,46,38,11
+    GROUPBOX        "工作模式选择",IDC_STATIC23,14,4,111,26
+    CONTROL         "打印",IDC_SPRAY3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    21,15,41,11
+    CONTROL         "切割",IDC_SPRAY4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    75,15,41,11
+    GROUPBOX        "启动方式",IDC_STATIC21,131,4,91,25
+    CONTROL         "自动开始",IDC_SPRAY5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,136,15,80,11
+    LTEXT           "纸张类型选择:",IDC_STATIC24,21,240,54,11
+    CONTROL         "",IDC_PAPERTYPESELECT,"ComboBoxEx32",CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,75,240,78,50
+    PUSHBUTTON      "录入纸张类型",IDC_ADDPAPERTYPE,157,215,56,14
+    PUSHBUTTON      "使用纸张类型",IDC_USEPAPERTYPE,157,238,56,14
+END
+
+IDD_SETUPPICTURE DIALOGEX 0, 0, 163, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "图形设置"
+FONT 10, "幼圆", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,204,38,14
+    PUSHBUTTON      "取消",IDCANCEL,91,204,40,14
+    GROUPBOX        "线宽设置",IDC_SETUPWIDTH,19,29,124,37
+    RTEXT           "线宽:",IDC_XIANKUAN,26,46,28,11
+    EDITTEXT        IDC_LINEWIDTH,55,45,30,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_XIANGSU,87,46,21,10
+    GROUPBOX        "纸张设置",IDC_PAPERWIDTH,20,70,124,58
+    EDITTEXT        IDC_PAPER_WIDTH,67,84,46,12,ES_AUTOHSCROLL
+    GROUPBOX        "边界及对位间距",IDC_SPACE,20,134,124,68
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,26,164,9,10
+    LTEXT           "马克间距:",IDC_STATIC2,38,166,48,9
+    EDITTEXT        IDC_GAP_DOWN,90,165,35,12,ES_AUTOHSCROLL
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,26,148,9,10
+    LTEXT           "右边距:",IDC_STATIC1,38,149,49,9
+    EDITTEXT        IDC_GAP_RIGHT,90,148,35,12,ES_AUTOHSCROLL
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,26,182,9,10
+    LTEXT           "对接符间距:",IDC_STATIC3,38,183,50,9
+    EDITTEXT        IDC_MARK,90,182,35,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,127,149,13,11
+    LTEXT           "mm",IDC_STATIC,127,167,13,12
+    LTEXT           "mm",IDC_STATIC,127,184,12,10
+    LTEXT           "mm",IDC_STATIC,118,87,16,10
+    CONTROL         "使用矢量字体",IDC_FONT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,14,108,8
+    LTEXT           "纸张宽度：",IDC_ZHIZHANGKUANDU,26,86,40,11
+    LTEXT           "纸张长度：",IDC_ZHIZHANGCHANGDU,27,106,40,11
+    EDITTEXT        IDC_PAPER_LENGTH,67,104,46,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,117,105,16,10
+END
+
+IDD_FILEFIXEDPRINT DIALOG DISCARDABLE  0, 0, 158, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "幼圆"
+BEGIN
+    DEFPUSHBUTTON   "是",IDOK,34,50,31,14
+    PUSHBUTTON      "取消",IDCANCEL,109,49,33,15
+    LTEXT           "是否从该点继续打印？",IDC_STATIC1,42,14,83,10
+    EDITTEXT        IDC_FIXEDLENGTH,69,29,47,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,117,31,12,9
+    RTEXT           "起点:",IDC_STATIC2,17,30,50,10,NOT WS_GROUP
+    PUSHBUTTON      "否",IDNO,72,50,30,14
+END
+
+IDD_SELECTDIALOG DIALOG DISCARDABLE  0, 0, 162, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "提示"
+FONT 10, "幼圆"
+BEGIN
+    DEFPUSHBUTTON   "YES",IDYES,22,38,35,14
+    PUSHBUTTON      "Cancel",IDCANCEL,108,38,33,14
+    CTEXT           "Static",IDC_PROMPTING,13,14,136,19
+    PUSHBUTTON      "NO",IDNO,65,38,35,14
+END
+
+IDD_VIEWHISTORY DIALOG DISCARDABLE  0, 0, 332, 197
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "历史记录"
+FONT 10, "幼圆"
+BEGIN
+    DEFPUSHBUTTON   "绘制",IDC_DRAW,63,178,47,14
+    PUSHBUTTON      "取消",IDCANCEL,213,178,46,14
+    PUSHBUTTON      "清空",IDC_CLEAR,138,178,49,14
+    CONTROL         "List1",IDC_HISTORYRECORD,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,318,168
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 188, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,131,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,24,50,14
+END
+
+IDD_VERIFYCOPIES DIALOG DISCARDABLE  0, 0, 177, 72
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "幼圆"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,39,34,14
+    PUSHBUTTON      "Cancel",IDCANCEL,73,39,34,14
+    EDITTEXT        IDC_FILECOPIES,67,15,46,14,ES_AUTOHSCROLL
+    CTEXT           "份数:",IDC_FENSHU,12,17,52,10
+    LTEXT           "(1-255)",IDC_RANGE,117,16,47,13
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PlotCenter Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PlotCenter\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PlotCenter.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PlotCenter 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_PLOTCENTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 376
+    END
+
+    IDD_PICTURE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_NETWORKSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 76
+    END
+
+    IDD_SETUPPLOTTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_SETUPPICTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_FILEFIXEDPRINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_SELECTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_VIEWHISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_VERIFYCOPIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "建立连接",                    ID_LINK
+        MENUITEM "断开连接",                    ID_BREAK
+        MENUITEM "打开...",                     ID_OPEN
+        MENUITEM "暂停",                        ID_PAUSE
+        MENUITEM "启动",                        ID_RESTART
+        MENUITEM "删除",                        ID_DELETE
+        MENUITEM "退出",                        ID_EXIT
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "参数导入",                    ID_PARAIN
+        MENUITEM "参数导出",                    ID_PARAOUT
+        MENUITEM "自动绘图目录...",             ID_AUTODRAWDIR
+        MENUITEM "历史记录...",                 ID_HISTRECORDS
+    END
+    POPUP "语言(&L)"
+    BEGIN
+        MENUITEM "简体中文(CN)",                ID_SIMPLIFIEDCHINESE
+        MENUITEM "英文(EN)",                    ID_ENGLISH
+    END
+    POPUP "设置(&S)"
+    BEGIN
+        POPUP "通讯设置"
+        BEGIN
+            MENUITEM "USB",                         ID_SETUSB
+            MENUITEM "网口",                        ID_SETNET
+        END
+        MENUITEM "图形设置...",                 ID_SETUPPICTURE
+        MENUITEM "切割机设置...",               ID_SETUPPLOTTER
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "使用手册",                    ID_PLOTCENTERHELP
+        MENUITEM "关于 Plot Center(&A)...",     ID_ABOUTBOX
+    END
+END
+
+IDR_MAINMENU_EN MENU DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Link",                        ID_LINK
+        MENUITEM "Break",                       ID_BREAK
+        MENUITEM "Open...",                     ID_OPEN
+        POPUP "Testing"
+        BEGIN
+            MENUITEM "test135.plt",                 ID_TEST135
+            MENUITEM "test160.plt",                 ID_TEST160
+            MENUITEM "test180.plt",                 ID_TEST180
+            MENUITEM "test200.plt",                 ID_TEST200
+            MENUITEM "test220.plt",                 ID_TEST220
+        END
+        MENUITEM "Pause",                       ID_PAUSE
+        MENUITEM "Restart",                     ID_RESTART
+        MENUITEM "Delete",                      ID_DELETE
+        MENUITEM "Exit",                        ID_EXIT
+    END
+    POPUP "Tools(&T)"
+    BEGIN
+        MENUITEM "Input parameter",             ID_PARAIN
+        MENUITEM "Output parameter",            ID_PARAOUT
+        MENUITEM "AutoPlotDir...",              ID_AUTODRAWDIR
+        MENUITEM "History",                     ID_HISTRECORDS
+    END
+    POPUP "Language(&L)"
+    BEGIN
+        MENUITEM "Simplified Chinese(CN)",      ID_SIMPLIFIEDCHINESE
+        MENUITEM "English(EN)",                 ID_ENGLISH
+    END
+    POPUP "Setup(&S)"
+    BEGIN
+        POPUP "Communications setting"
+        BEGIN
+            MENUITEM "USB",                         ID_SETUSB
+            MENUITEM "Network",                     ID_SETNET
+        END
+        MENUITEM "Plot setting...",             ID_SETUPPICTURE
+        MENUITEM "Plotter setting...",          ID_SETUPPLOTTER
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "Contents",                    ID_PLOTCENTERHELP
+        MENUITEM "About Plot Center(&A)...",    ID_ABOUTBOX
+    END
+END
+
+IDR_SUBMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "工具"
+    BEGIN
+        MENUITEM "打印预览",                    ID_BUTTONPREVIEW2
+        MENUITEM "修改文件份数",                ID_VERIFYFILECOUNT
+        MENUITEM "修改起始打印点",              ID_VERIFYFIXEDPOINT
+        MENUITEM "删除",                        ID_DELETEFILE
+        MENUITEM "暂停",                        ID_PAUSEFILE
+        MENUITEM "启动",                        ID_RESTARTFILE
+    END
+END
+
+IDR_SUBMENU_EN MENU DISCARDABLE 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Preview",                     ID_BUTTONPREVIEW2
+        MENUITEM "Number of copies",            ID_VERIFYFILECOUNT
+        MENUITEM "Start point",                 ID_VERIFYFIXEDPOINT
+        MENUITEM "Delete",                      ID_DELETEFILE
+        MENUITEM "Pause",                       ID_PAUSEFILE
+        MENUITEM "Restart",                     ID_RESTARTFILE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ERRORY              BITMAP  DISCARDABLE     "res\\ErrorY.bmp"
+IDB_ERRORX              BITMAP  DISCARDABLE     "res\\ErrorX.bmp"
+IDB_PAGE_CY             BITMAP  DISCARDABLE     "res\\page_cy.bmp"
+IDB_DOWN_GAP            BITMAP  DISCARDABLE     "res\\down_gap.bmp"
+IDB_MARK_GAP            BITMAP  DISCARDABLE     "res\\mark_gap.bmp"
+IDB_RIGHT_GAP           BITMAP  DISCARDABLE     "res\\right_ga.bmp"
+IDB_LEFT_GAP            BITMAP  DISCARDABLE     "res\\up_gap.bmp"
+IDB_PAGE_CX             BITMAP  DISCARDABLE     "res\\page_cx.bmp"
+IDR_TOOLBAR             BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_PLOTCENTER          REGISTRY DISCARDABLE    "PlotCenter.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_OPENFILE
+    BUTTON      ID_UPFILE
+    BUTTON      ID_DOWNFILE
+    BUTTON      ID_DELETEFILE2
+    BUTTON      ID_PAUSEFILE2
+    BUTTON      ID_RESTARTFILE2
+    BUTTON      IDC_STARTORSTOP
+    BUTTON      ID_BUTTONPREVIEW
+    BUTTON      ID_PLOTCENTERHELP2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\cursor2.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SETUPPLOTTER DLGINIT
+BEGIN
+    IDC_PAPERTYPESELECT, 0x1234, 4, 0
+0x3035, 0x0067, 
+    IDC_PAPERTYPESELECT, 0x1234, 4, 0
+0x3036, 0x0067, 
+    IDC_PAPERTYPESELECT, 0x1234, 4, 0
+0x3038, 0x0067, 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3031, 0x6730, "\000" 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3231, 0x6730, "\000" 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3531, 0x6730, "\000" 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3032, 0x6730, "\000" 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3532, 0x6730, "\000" 
+    IDC_PAPERTYPESELECT, 0x1234, 5, 0
+0x3033, 0x6730, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 PlotCenter(&A)..."
+    IDS_COLUMN0             "文件名"
+    IDS_COLUMN1             "长度"
+    IDS_COLUMN2             "宽度"
+    IDS_COLUMN3             "起始打印点"
+    IDS_STRING106           "打不开文件!"
+    IDS_COLUMN4             "已打印长度"
+    IDS_STRING108           "非HP-GL文件!"
+    IDS_COLUMN5             "份数"
+    IDS_PDSTRANSMIT         "打印中..."
+    IDS_PDSWAIT             "等待"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PDSPAUSE            "暂停"
+    IDS_STRING114           "右边距:"
+    IDS_STRING115           "网络连接不成功!"
+    IDS_STRING116           "请选择相邻的喷头!"
+    IDS_STRING117           "至少选择一个喷头!"
+    IDS_STRING118           "文件未传完，不能断开连接!"
+    IDS_STRING119           "未连接"
+    IDS_STRING120           "已连接"
+    IDS_STRING121           "总文件数:"
+    IDS_STRING122           "总长度:"
+    IDS_COLUMN0_EN          "File Name"
+    IDS_COLUMN1_EN          "Length"
+    IDS_COLUMN2_EN          "Width"
+    IDS_COLUMN3_EN          "StartPoint"
+    IDS_STRING121_EN        "TotalFiles:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING122_EN        "TotalLength:"
+    IDS_STRING119_EN        "NotLink"
+    IDS_COLUMN4_EN          "Printed"
+    IDS_COLUMN5_EN          "Copies"
+    IDS_DOWN                "向下"
+    IDS_DOWN_EN             "Down"
+    IDS_UP                  "向上"
+    IDS_UP_EN               "Up"
+    IDS_BOTTON              "最后"
+    IDS_BOTTON_EN           "Bottom"
+    IDS_TOP                 "最前"
+    IDS_TOP_EN              "Top"
+	IDS_PLOTCENTERNAME_EN   "Richpeace Magic Inkjet Plotcenter(V1.10)"
+    IDS_PLOTCENTERNAME      "立式切绘中心(V1.10)"
+    IDS_STRING120_EN        "Linked"
+    IDS_STRING106_EN        "Can not open file!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING108_EN        "Not HP-GL file!"
+    IDS_PDSTRANSMIT_EN      "Printing"
+    IDS_PDSWAIT_EN          "Wait"
+    IDS_PDSPAUSE_EN         "Pause"
+    IDS_STRING114_EN        "Right space:"
+    IDS_STRING115_EN        "Link failure!"
+    IDS_STRING116_EN        "Please select the adjacent spray!"
+    IDS_STRING117_EN        "Select one spray at least!"
+    IDS_STRING118_EN        "File transmission have not completed,can not cut the link!"
+    IDS_STRING154           "起始绘制点:"
+    IDS_STRING154_EN        "Start Point:"
+    IDS_STRING156           "份数:"
+    IDS_STRING156_EN        "Copies:"
+    IDS_STRING158           "绘制"
+    IDS_STRING158_EN        "Plot"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING160           "图形正向旋转90度"
+    IDS_STRING160_EN        "Rotating 90 degree"
+    IDS_STRING162           "马克间距:"
+    IDS_STRING162_EN        "Mark space:"
+    IDS_STRING164           "对接符间距:"
+    IDS_STRING164_EN        "Plot space:"
+    IDS_STRING166           "纸张设置"
+    IDS_STRING166_EN        "Paper Parameter"
+    IDS_STRING168           "边界及对位间距"
+    IDS_STRING168_EN        "Border and Space"
+    IDS_STRING170           "图形误差修正"
+    IDS_STRING170_EN        "Plotter Error correct"
+    IDS_STRING172           "1米实际输出:"
+    IDS_STRING172_EN        "1m Export:"
+    IDS_STRING174           "线宽设置"
+    IDS_STRING174_EN        "Setup Line Width"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING176           "线宽:"
+    IDS_STRING176_EN        "Width:"
+    IDS_STRING178           "像素"
+    IDS_STRING178_EN        "pixel"
+    IDS_STRING180           "确定"
+    IDS_STRING180_EN        "OK"
+    IDS_STRING182           "取消"
+    IDS_STRING182_EN        "Cancel"
+    IDS_STRING184           "关于 PlotCenter"
+    IDS_STRING184_EN        "About PlotCenter"
+    IDS_STRING186           "版权所有 (C) 2015"
+    IDS_STRING186_EN        "Copyright (C) 2010"
+    IDS_STRING188           "日期:"
+    IDS_STRING188_EN        "Date:"
+    IDS_STRING190           "网口设置"
+    IDS_STRING190_EN        "Network Setup"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING192           "绘图仪IP设置"
+    IDS_STRING192_EN        "Setup plotter IP adress"
+    IDS_STRING194           "IP地址:"
+    IDS_STRING194_EN        "RemoteIP:"
+    IDS_STRING196           "子网掩码:"
+    IDS_STRING196_EN        "SubnetMask:"
+    IDS_STRING198           "网关:"
+    IDS_STRING198_EN        "GatewayIP:"
+    IDS_STRING200           "图形设置"
+    IDS_STRING200_EN        "Plot Setup"
+    IDS_STRING202           "切割机设置"
+    IDS_STRING202_EN        "Plotter Setup"
+    IDS_STRING204           "打印模式选择"
+    IDS_STRING204_EN        "Select print style"
+    IDS_STRING206           "单向"
+    IDS_STRING206_EN        "Mono-dir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING208           "双向"
+    IDS_STRING208_EN        "Bi-dir"
+    IDS_STRING210           "喷头选择"
+    IDS_STRING210_EN        "Enable heads"
+    IDS_STRING212           "1号喷头"
+    IDS_STRING212_EN        "Spray1"
+    IDS_STRING214           "2号喷头"
+    IDS_STRING214_EN        "Spray2"
+    IDS_STRING216           "3号喷头"
+    IDS_STRING216_EN        "Spray3"
+    IDS_STRING218           "4号喷头"
+    IDS_STRING218_EN        "Spray4"
+    IDS_STRING220           "双向打印误差设置"
+    IDS_STRING220_EN        "Bidirectional printing error setup"
+    IDS_STRING222           "双向打印错位误差:"
+    IDS_STRING222_EN        "Shift Error:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING224           "打印图形宽度:"
+    IDS_STRING224_EN        "Plot Width:"
+    IDS_STRING226           "打印误差修正图"
+    IDS_STRING226_EN        "Printing Error"
+    IDS_STRING228           "喷头间误差设置"
+    IDS_STRING228_EN        "Error between sprays setup"
+    IDS_STRING230           "喷头间错位误差:"
+    IDS_STRING230_EN        "Shift Error:"
+    IDS_STRING236           "喷头间重叠误差:"
+    IDS_STRING236_EN        "Overlap Error:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING242           "打印误差修正图"
+    IDS_STRING242_EN        "Printing Error"
+    IDS_STRING244           "浏览文件夹"
+    IDS_STRING244_EN        "Directory Browser"
+    IDS_STRING246           "打印进度:"
+    IDS_STRING246_EN        "Transmit:"
+    IDS_COLUMN6             "状态"
+    IDS_COLUMN6_EN          "State"
+    IDS_STRING250           "参数设置失败！"
+    IDS_STRING250_EN        "Setup failure!"
+    IDS_STRING252           "打印模式设置失败!"
+    IDS_STRING252_EN        "Style of printing setup failure!"
+    IDS_STRING254           "喷头选择设置失败!"
+    IDS_STRING254_EN        "Select spray failure!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING256           "喷头间误差设置失败!"
+    IDS_STRING256_EN        "Error between sprays setup failure!"
+    IDS_STRING258           "双向打印误差设置失败!"
+    IDS_STRING258_EN        "Printing error setup failure!"
+    IDS_STRING260           "图形误差修正失败!"
+    IDS_STRING260_EN        "Plot error setup failure!"
+    CG_IDS_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_STRING263           "绘图没有全部完成,要保存绘图文件吗?"
+    IDS_STRING263_EN        "The job is not completed yet , save it now ?"
+    ID_DELETEFILE2          "文件删除"
+    ID_DELETEFILE2_EN       "Delete Files"
+    IDS_STRING267           "图形超出范围!"
+    IDS_STRING267_EN        "The plot is out of range!"
+    IDS_STRING269           "测试修正图"
+    IDS_STRING269_EN        "1 Square meter"
+    IDS_STRING271           "是否从该点继续打印？"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING271_EN        "Printing continue?"
+    IDS_STRING273           "起点:"
+    IDS_STRING273_EN        "Fixed-point:"
+    IDS_STRING275           "否"
+    IDS_STRING275_EN        "NO"
+    IDS_STRING277           "是"
+    IDS_STRING277_EN        "Yes"
+    IDS_STRING279           "真的要删除该项绘图吗?"
+    IDS_STRING279_EN        "Erase this job ?"
+    IDS_STRING281           "提示"
+    IDS_STRING281_EN        "Reminder"
+    IDS_STRING283           "历史记录"
+    IDS_STRING283_EN        "History"
+    IDS_STRING285           "清除"
+    IDS_STRING285_EN        "Clear"
+    IDS_HCOLUMN1            "开始日期时间"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HCOLUMN1_EN         "Start Date/Time"
+    IDS_HCOLUMN2            "结束时间"
+    IDS_HCOLUMN2_EN         "End Time"
+    IDS_HCOLUMN3            "完成"
+    IDS_HCOLUMN3_EN         "Percent"
+    IDS_STRING293           "参数设置成功！"
+    IDS_STRING293_EN        "Setup Success!"
+    IDS_STRING295           "不能重复打印自动目录文件!"
+    IDS_STRING295_EN        "Don't print the file of AutoPlotDir!"
+    IDS_STRING297           "使用矢量字体"
+    IDS_STRING297_EN        "Use vector font"
+    IDS_STRING299           "起始打印长度大于图形长度！"
+    IDS_STRING299_EN        "Start point is too big!"
+    IDS_STRING301           "USB设备打开失败"
+    IDS_STRING301_EN        "USB don't connect!"
+    IDS_STRING303           "不能识别的USB设备!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING303_EN        "Unrecognizable USB device!"
+    IDS_STRING305           "读文件错!"
+    IDS_STRING305_EN        "Read file error!"
+    IDS_STRING307           "参数导出成功!"
+    IDS_STRING307_EN        "Output parameter success!"
+    IDS_STRING309           "不能修改正在打印的文件!"
+    IDS_STRING309_EN        "Don't verify the printting file!"
+    IDS_STRING311           "请输入正确的数值!"
+    IDS_STRING311_EN        "The value is out of range!"
+    IDC_STARTORSTOP         "开始\n开始"
+    IDC_STARTORSTOP_EN      "Start"
+    IDS_STRING315           "停止"
+    IDS_STRING315_EN        "Stop"
+    IDS_STRING317           "走纸误差修正"
+    IDS_STRING317_EN        "Track paper error setup"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPENFILE_EN          "Open file"
+    ID_UPFILE               "向上"
+    ID_UPFILE_EN            "Move up"
+    ID_DOWNFILE             "向下"
+    ID_DOWNFILE_EN          "Move down"
+    ID_PAUSEFILE2           "暂停"
+    ID_PAUSEFILE2_EN        "Pause"
+    ID_RESTARTFILE2         "打印"
+    ID_RESTARTFILE2_EN      "Restart Printing"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPENFILE             "打开文件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PLOTCENTERHELP2      "帮助"
+    ID_PLOTCENTERHELP2_EN   "Help"
+    ID_BUTTONPREVIEW        "预览"
+    ID_BUTTONPREVIEW_EN     "Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING320           "走纸误差设置:"
+    IDS_STRING320_EN        "Error setup:"
+    IDS_STRING322           "打印走纸误差"
+    IDS_STRING322_EN        "Printing Error"
+    IDS_STRING324           "打印启动方式选择"
+    IDS_STRING324_EN        "Select start mode "
+    IDS_STRING326           "自动打印"
+    IDS_STRING326_EN        "Auto print"
+    IDS_STRING327           "笔号："
+    IDS_STRING327_EN        "Pen:"
+    IDS_STRING328           "刀号："
+    IDS_STRING328_EN        "CUT:"
+    IDS_STRING329           "打印"
+    IDS_STRING329_EN        "Print "
+    IDS_STRING330           "切割"
+    IDS_STRING330_EN        "Cut "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING331           "工作模式选择"
+    IDS_STRING331_EN        "Work Mode"
+    IDS_STRING332           "笔号设置"
+    IDS_STRING332_EN        "Pen set number"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PlotCenter.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

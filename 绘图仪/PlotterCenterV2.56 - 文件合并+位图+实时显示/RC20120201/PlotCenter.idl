@@ -1,0 +1,19 @@
+
+	// PlotCenter.idl : IDL source for PlotCenter.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (PlotCenter.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(2935D650-F72F-4C89-9541-E12DEDDD0F8E),
+	version(1.0),
+	helpstring("PlotCenter 1.0 Type Library")
+]
+library PlotCenterLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

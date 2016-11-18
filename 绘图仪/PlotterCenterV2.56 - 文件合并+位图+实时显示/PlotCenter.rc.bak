@@ -1,0 +1,988 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PlotCenter.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\PlotCenter.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 186, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PlotCenter"
+FONT 10, "System"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,17,20,20
+    LTEXT           "PlotCenter V2.45",IDC_STATIC,45,10,72,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC1,45,25,91,8
+    DEFPUSHBUTTON   "OK",IDOK,130,7,41,14,WS_GROUP
+    LTEXT           "DATE:",IDC_STATIC2,45,40,21,9
+    LTEXT           "WEB:www.richpeace.com",IDC_STATIC,45,56,92,10
+    LTEXT           "V2.45",IDC_STATIC,16,40,21,8
+    LTEXT           "2014-2-21",IDC_STATIC,66,40,41,10
+END
+
+IDD_PLOTCENTER_DIALOG DIALOGEX 0, 0, 435, 203
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "PlotCenter(V2.45)"
+MENU IDR_MAINMENU
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_PLOTITEM,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,5,14,424,155
+    LTEXT           "TotalFiles:",IDC_TFILE,5,173,45,10
+    LTEXT           "",IDC_TOTALFILE,55,174,54,9,0,WS_EX_STATICEDGE
+    RTEXT           "TotalLength:",IDC_TLENGTH,285,173,57,10
+    LTEXT           "",IDC_TOTALLENGTH,352,174,73,9,0,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PRINTSTATE,"msctls_progress32",0x0,55,
+                    188,325,11
+    LTEXT           "NotLink",IDC_CONNECTSTATE,385,188,40,10,NOT WS_GROUP,
+                    WS_EX_STATICEDGE
+    LTEXT           "Transmit:",IDC_STATIC1,5,189,45,11
+END
+
+IDD_PICTURE DIALOGEX 0, 0, 330, 218
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Graphics"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Plot",ID_DRAW,296,201,26,13
+    LTEXT           "X:",IDC_STATICX,2,203,9,8,NOT WS_GROUP
+    LTEXT           "",IDC_TOTALX,13,203,47,11,NOT WS_GROUP,WS_EX_STATICEDGE
+    LTEXT           "Y:",IDC_STATICY,66,203,8,9,NOT WS_GROUP
+    LTEXT           "",IDC_TOTALY,77,203,48,11,NOT WS_GROUP,WS_EX_STATICEDGE
+    RTEXT           "Start Point:",IDC_STARTPOINT,129,203,49,10,NOT WS_GROUP
+    EDITTEXT        IDC_FIXEDPOINT,180,202,43,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_MM,225,203,10,11,NOT WS_GROUP
+    RTEXT           "Copies:",IDC_NUM,237,203,29,9,NOT WS_GROUP
+    EDITTEXT        IDC_COPYNUM,267,202,22,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DRAWPICTURE,"Static",SS_WHITERECT,3,4,323,194,
+                    WS_EX_STATICEDGE
+END
+
+IDD_NETWORKSETUP DIALOGEX 0, 0, 180, 83
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Network Setup"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,137,26,31,14
+    PUSHBUTTON      "Cancel",IDCANCEL,137,50,31,14
+    GROUPBOX        "Setup plotter IP adress",IDC_PlotterIP,7,7,166,69
+    LTEXT           "RemoteIP:",IDC_IPDIZHI,13,24,41,10
+    LTEXT           "SubnetMask:",IDC_MASKDIZHI,11,42,44,10
+    LTEXT           "GatewayIP:",IDC_GATEWAYDIZHI,12,59,42,10
+    CONTROL         "IPAddress1",IDC_REMOTEIP,"SysIPAddress32",WS_TABSTOP,57,
+                    23,69,10
+    CONTROL         "IPAddress1",IDC_SUBNETMASK,"SysIPAddress32",WS_TABSTOP,
+                    57,41,69,10
+    CONTROL         "IPAddress1",IDC_GATEWAYIP,"SysIPAddress32",WS_TABSTOP,
+                    57,59,69,10
+END
+
+IDD_SETUPPLOTTER DIALOGEX 0, 0, 454, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Plotter Setup"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,175,210,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,230,209,48,13
+    GROUPBOX        "Enable heads",IDC_STATIC2,14,72,209,27
+    CONTROL         "Spray1",IDC_SPRAY1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,85,41,11
+    CONTROL         "Spray2",IDC_SPRAY2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,77,85,41,11
+    CONTROL         "Spray3",IDC_SPRAY3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,127,85,41,11
+    CONTROL         "Spray4",IDC_SPRAY4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,176,85,41,11
+    GROUPBOX        "Select print style",IDC_STATIC1,15,38,208,24
+    CONTROL         "Mono-dir",IDC_UNIDIRECTIONAL,"Button",BS_AUTORADIOBUTTON,27,
+                    49,88,9
+    CONTROL         "Bi-dir",IDC_BIDIRECTIONAL,"Button",BS_AUTORADIOBUTTON,127,
+                    48,88,10
+    GROUPBOX        "Error between sprays setup",IDC_STATIC6,227,52,213,146
+    GROUPBOX        "",IDC_STATIC,233,59,196,59
+    LTEXT           "Shift Error 1/2:",IDC_STATIC7,239,70,78,11
+    EDITTEXT        IDC_SPRAYERRORY12,322,68,36,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC10,361,70,21,10
+    LTEXT           "Shift Error 2/3:",IDC_STATIC8,239,86,79,11
+    EDITTEXT        IDC_SPRAYERRORY23,322,84,36,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC11,361,86,22,10
+    LTEXT           "Shift Error 3/4:",IDC_STATIC9,239,102,80,11
+    EDITTEXT        IDC_SPRAYERRORY34,322,100,36,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC12,361,102,23,10
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,384,78,38,30
+    GROUPBOX        "",IDC_STATIC,233,120,196,59
+    LTEXT           "Overlap Error 1/2:",IDC_STATIC13,239,130,80,11
+    EDITTEXT        IDC_SPRAYERRORX12,322,129,37,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC16,362,130,22,10
+    LTEXT           "Overlap Error 2/3:",IDC_STATIC14,239,147,80,11
+    EDITTEXT        IDC_SPRAYERRORX23,322,145,37,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC17,362,147,22,10
+    LTEXT           "Overlap Error 3/4:",IDC_STATIC15,239,163,81,11
+    EDITTEXT        IDC_SPRAYERRORX34,322,161,37,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_STATIC18,362,163,22,10
+    CONTROL         141,IDC_STATIC,"Static",SS_BITMAP,384,139,37,30
+    PUSHBUTTON      "Error Between Sprays",IDC_SPRAYERROR,284,182,92,13
+    GROUPBOX        "Bidirectional printing error setup",IDC_STATIC3,227,4,213,46
+    LTEXT           "Shift Error:",IDC_STATIC4,238,17,69,11
+    EDITTEXT        IDC_MALPOSEDERROR,307,17,41,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,350,17,11,10
+    LTEXT           "Plot Width:",IDC_STATIC5,238,34,69,11
+    EDITTEXT        IDC_GRAPHWIDTH,307,33,41,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,350,34,10,10
+    PUSHBUTTON      "Printing Error",IDC_PMALPOSEDGRAPH,366,23,62,12
+    GROUPBOX        "Plotter Error correct",IDC_PLOTTERERROR,15,110,208,47
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,25,123,24,12
+    RTEXT           "1m Export:",IDC_OUTPUTY,48,125,51,9
+    EDITTEXT        IDC_PLOTTERYERROR,101,124,39,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,143,125,12,9
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,25,139,24,12
+    RTEXT           "1m Export:",IDC_OUTPUTX,48,141,51,9
+    EDITTEXT        IDC_PLOTTERXERROR,101,140,39,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,143,141,12,9
+    PUSHBUTTON      "1 Square meter",IDC_PLOTSQUARE,158,131,59,13
+    GROUPBOX        "Track paper error setup",IDC_PLOTTERERROR2,15,168,208,31
+    RTEXT           "Error setup:",IDC_OUTPUTY2,37,182,61,9
+    EDITTEXT        IDC_PLOTTERYERROR2,101,180,39,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,143,182,12,9
+    PUSHBUTTON      "Printing Error",IDC_PLOTSQUARE3,158,179,59,13
+    GROUPBOX        "Select start mode",IDC_STATIC21,15,5,208,24
+    CONTROL         "Auto print",IDC_SPRAY5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,16,90,10
+END
+
+IDD_SETUPPICTURE DIALOGEX 0, 0, 164, 216
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Plot Setup"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,27,195,38,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,195,40,14
+    GROUPBOX        "Setup Line Width",IDC_SETUPWIDTH,19,42,124,37
+    RTEXT           "Width:",IDC_XIANKUAN,26,59,28,11
+    EDITTEXT        IDC_LINEWIDTH,55,58,30,12,ES_AUTOHSCROLL
+    LTEXT           "pixel",IDC_XIANGSU,87,59,21,10
+    GROUPBOX        "Paper Width",IDC_PAPERWIDTH,20,83,124,36
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,33,100,19,9
+    EDITTEXT        IDC_PAPER_WIDTH,57,99,46,12,ES_AUTOHSCROLL
+    GROUPBOX        "Border and Space",IDC_SPACE,20,123,124,68
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,26,157,7,8
+    LTEXT           "Mark space:",IDC_STATIC2,38,157,48,9
+    EDITTEXT        IDC_GAP_DOWN,90,156,35,12,ES_AUTOHSCROLL
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,26,141,7,8
+    LTEXT           "Right space:",IDC_STATIC1,38,140,49,9
+    EDITTEXT        IDC_GAP_RIGHT,90,139,35,12,ES_AUTOHSCROLL
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,26,175,7,8
+    LTEXT           "Plot space:",IDC_STATIC3,38,174,50,9
+    EDITTEXT        IDC_MARK,90,173,35,12,ES_AUTOHSCROLL
+    CONTROL         "Rotating 90 degree",IDC_ROTATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,12,126,8
+    LTEXT           "mm",IDC_STATIC,127,140,13,11
+    LTEXT           "mm",IDC_STATIC,127,158,13,12
+    LTEXT           "mm",IDC_STATIC,127,175,12,10
+    LTEXT           "mm",IDC_STATIC,105,101,16,10
+    CONTROL         "Use vector font",IDC_FONT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,27,108,8
+END
+
+IDD_FILEFIXEDPRINT DIALOG DISCARDABLE  0, 0, 158, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,50,31,14
+    PUSHBUTTON      "Cancel",IDCANCEL,109,49,33,15
+    LTEXT           "Printing continue?",IDC_STATIC1,42,14,83,10
+    EDITTEXT        IDC_FIXEDLENGTH,69,29,47,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,117,31,12,9
+    RTEXT           "Fixed-point:",IDC_STATIC2,17,30,50,10,NOT WS_GROUP
+    PUSHBUTTON      "NO",IDNO,72,50,30,14
+END
+
+IDD_SELECTDIALOG DIALOG DISCARDABLE  0, 0, 162, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reminder"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Sim",IDYES,22,38,35,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,108,38,33,14
+    CTEXT           "Static",IDC_PROMPTING,13,14,136,19
+    PUSHBUTTON      "NO",IDNO,65,38,35,14
+END
+
+IDD_VIEWHISTORY DIALOG DISCARDABLE  0, 0, 332, 197
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "History"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Plot",IDC_DRAW,63,178,47,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,213,178,46,14
+    PUSHBUTTON      "Empty",IDC_CLEAR,138,178,49,14
+    CONTROL         "List1",IDC_HISTORYRECORD,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,318,168
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 188, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,131,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,24,50,14
+END
+
+IDD_VERIFYCOPIES DIALOG DISCARDABLE  0, 0, 177, 72
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Sim",IDOK,24,39,34,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,73,39,34,14
+    EDITTEXT        IDC_FILECOPIES,67,15,46,14,ES_AUTOHSCROLL
+    CTEXT           "Copies:",IDC_FENSHU,12,17,52,10
+    LTEXT           "(1-255)",IDC_RANGE,117,16,47,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PlotCenter Microsoft Base Class Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PlotCenter\0"
+            VALUE "LegalCopyright", "Copyright (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PlotCenter.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PlotCenter Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_PLOTCENTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 429
+    END
+
+    IDD_PICTURE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_NETWORKSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 76
+    END
+
+    IDD_SETUPPLOTTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_SETUPPICTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_FILEFIXEDPRINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_SELECTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_VIEWHISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_VERIFYCOPIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Link",                    ID_LINK
+        MENUITEM "Break",                    ID_BREAK
+        MENUITEM "Open...",                     ID_OPEN
+        POPUP "Testing"
+        BEGIN
+            MENUITEM "test135.plt",                 ID_TEST135
+            MENUITEM "test160.plt",                 ID_TEST160
+            MENUITEM "test180.plt",                 ID_TEST180
+            MENUITEM "test200.plt",                 ID_TEST200
+            MENUITEM "test220.plt",                 ID_TEST220
+        END
+        MENUITEM "Pause",                        ID_PAUSE
+        MENUITEM "Restart",                        ID_RESTART
+        MENUITEM "Delete",                        ID_DELETE
+        MENUITEM "Exit",                        ID_EXIT
+    END
+    POPUP "Tools(&T)"
+    BEGIN
+        MENUITEM "Input parameter",                    ID_PARAIN
+        MENUITEM "Output parameter",                    ID_PARAOUT
+        MENUITEM "AutoPlotDir...",             ID_AUTODRAWDIR
+        MENUITEM "History...",                 ID_HISTRECORDS
+    END
+    POPUP "Sort(&O)"
+    BEGIN
+        MENUITEM "AutoSort",                    IDM_AUTO_SORT
+        MENUITEM SEPARATOR
+        MENUITEM "By Modifytime",                      IDM_SORT_BY_MTIME
+        MENUITEM "By Title",                      IDM_SORT_BY_TITLE
+    END
+    POPUP "Language(&L)"
+    BEGIN
+        MENUITEM "English(EN)",                ID_SIMPLIFIEDCHINESE
+        MENUITEM "Portuguese(POR)",                    ID_ENGLISH
+    END
+    POPUP "Setup(&S)"
+    BEGIN
+        POPUP "Communications setting"
+        BEGIN
+            MENUITEM "USB",                         ID_SETUSB
+            MENUITEM "Network",                        ID_SETNET
+        END
+        MENUITEM "Plot setting...",                 ID_SETUPPICTURE
+        MENUITEM "Plotter setting...",               ID_SETUPPLOTTER
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "Contents",                    ID_PLOTCENTERHELP
+        MENUITEM "About Plot Center(&A)...",     ID_ABOUTBOX
+    END
+END
+
+IDR_MAINMENU_EN MENU DISCARDABLE 
+BEGIN
+    POPUP "Arquivo(&F)"
+    BEGIN
+        MENUITEM "Conectar",                        ID_LINK
+        MENUITEM "Parar",                       ID_BREAK
+        MENUITEM "Abrir...",                     ID_OPEN
+        POPUP "Arquivo Teste"
+        BEGIN
+            MENUITEM "test135.plt",                 ID_TEST135
+            MENUITEM "test160.plt",                 ID_TEST160
+            MENUITEM "test180.plt",                 ID_TEST180
+            MENUITEM "test200.plt",                 ID_TEST200
+            MENUITEM "test220.plt",                 ID_TEST220
+        END
+        MENUITEM "Pausar",                       ID_PAUSE
+        MENUITEM "Reiniciar",                     ID_RESTART
+        MENUITEM "Deletar",                      ID_DELETE
+        MENUITEM "Sair",                        ID_EXIT
+    END
+    POPUP "Ferramentas(&T)"
+    BEGIN
+        MENUITEM "Parâmetros de Entrada",             ID_PARAIN
+        MENUITEM "Parâmetros de Saída",            ID_PARAOUT
+        MENUITEM "Plotar diretório automático...",              ID_AUTODRAWDIR
+        MENUITEM "Histórico",                     ID_HISTRECORDS
+    END
+    POPUP "Ordenar(&O)"
+    BEGIN
+        MENUITEM "Autom¨¢tico",                    IDM_AUTO_SORT
+        MENUITEM SEPARATOR
+        MENUITEM "Data de modifica??o",               IDM_SORT_BY_MTIME
+        MENUITEM "Nome",                    IDM_SORT_BY_TITLE
+    END
+    POPUP "L¨ªngua(&L)"
+    BEGIN
+        MENUITEM "English(EN)",      ID_SIMPLIFIEDCHINESE
+        MENUITEM "Portuguese(POR)",                 ID_ENGLISH
+    END
+    POPUP "Configura??o(&S)"
+    BEGIN
+        POPUP "Conex?o por"
+        BEGIN
+            MENUITEM "USB",                         ID_SETUSB
+            MENUITEM "Rede",                     ID_SETNET
+        END
+        MENUITEM "Configura??o de Plotagem...",             ID_SETUPPICTURE
+        MENUITEM "Configura??o do Plotter...",          ID_SETUPPLOTTER
+    END
+    POPUP "Ajuda(&H)"
+    BEGIN
+        MENUITEM "Conte¨²do",                    ID_PLOTCENTERHELP
+        MENUITEM "Sobre(&A)...",    ID_ABOUTBOX
+    END
+END
+
+IDR_SUBMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Preview",                    ID_BUTTONPREVIEW2
+        MENUITEM "Number of copies",                ID_VERIFYFILECOUNT
+        MENUITEM "Start point",              ID_VERIFYFIXEDPOINT
+        MENUITEM "Delete",                      ID_DELETEFILE
+        MENUITEM "Pause",                       ID_PAUSEFILE
+        MENUITEM "Restart",                     ID_RESTARTFILE
+    END
+END
+
+IDR_SUBMENU_EN MENU DISCARDABLE 
+BEGIN
+    POPUP "Ferramentas"
+    BEGIN
+        MENUITEM "Visualiza??o",                     ID_BUTTONPREVIEW2
+        MENUITEM "C¨®pias",            ID_VERIFYFILECOUNT
+        MENUITEM "Inicio",                 ID_VERIFYFIXEDPOINT
+        MENUITEM "Deletar",                      ID_DELETEFILE
+        MENUITEM "Pausar",                       ID_PAUSEFILE
+        MENUITEM "Reiniciar",                     ID_RESTARTFILE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ERRORY              BITMAP  DISCARDABLE     "res\\ErrorY.bmp"
+IDB_ERRORX              BITMAP  DISCARDABLE     "res\\ErrorX.bmp"
+IDB_PAGE_CY             BITMAP  DISCARDABLE     "res\\page_cy.bmp"
+IDB_DOWN_GAP            BITMAP  DISCARDABLE     "res\\down_gap.bmp"
+IDB_MARK_GAP            BITMAP  DISCARDABLE     "res\\mark_gap.bmp"
+IDB_RIGHT_GAP           BITMAP  DISCARDABLE     "res\\right_ga.bmp"
+IDB_LEFT_GAP            BITMAP  DISCARDABLE     "res\\up_gap.bmp"
+IDB_PAGE_CX             BITMAP  DISCARDABLE     "res\\page_cx.bmp"
+IDR_TOOLBAR             BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_PLOTCENTER          REGISTRY DISCARDABLE    "PlotCenter.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_OPENFILE
+    BUTTON      ID_UPFILE
+    BUTTON      ID_DOWNFILE
+    BUTTON      ID_DELETEFILE2
+    BUTTON      ID_PAUSEFILE2
+    BUTTON      ID_RESTARTFILE2
+    BUTTON      IDC_STARTORSTOP
+    BUTTON      ID_BUTTONPREVIEW
+    BUTTON      ID_PLOTCENTERHELP2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About PlotCenter(&A)..."
+    IDS_COLUMN0             "File Name"
+    IDS_COLUMN1             "Length"
+    IDS_COLUMN2             "Width"
+    IDS_COLUMN3             "StartPoint"
+    IDS_STRING106           "Can not open file!"
+    IDS_COLUMN4             "Printed"
+    IDS_STRING108           "Not HP-GL file!"
+    IDS_COLUMN5             "Copies"
+    IDS_PDSTRANSMIT         "Printing..."
+    IDS_PDSWAIT             "Wait"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PDSPAUSE            "Pause"
+    IDS_STRING114           "Right space:"
+    IDS_STRING115           "Link failure!"
+    IDS_STRING116           "Please select the adjacent spray!"
+    IDS_STRING117           "Select one spray at least!"
+    IDS_STRING118           "File transmission have not completed,can not cut the link!"
+    IDS_STRING119           "NotLink"
+    IDS_STRING120           "Linked"
+    IDS_STRING121           "TotalFiles:"
+    IDS_STRING122           "TotalLength:"
+    IDS_COLUMN0_EN          "Arquivo"
+    IDS_COLUMN1_EN          "Comprimento"
+    IDS_COLUMN2_EN          "largura"
+    IDS_COLUMN3_EN          "Inicio"
+    IDS_STRING121_EN        "Total de arquivos:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING122_EN        "Tamanho total:"
+    IDS_STRING119_EN        "Sem_Conex?o"
+    IDS_COLUMN4_EN          "Imprimindo"
+    IDS_COLUMN5_EN          "C¨®pias"
+    IDS_DOWN                "Down"
+    IDS_DOWN_EN             "Baixar"
+    IDS_UP                  "Up"
+    IDS_UP_EN               "Subir"
+    IDS_BOTTON              "Bottom"
+    IDS_BOTTON_EN           "Bottom"
+    IDS_TOP                 "Top"
+    IDS_TOP_EN              "Abaixo"
+    IDS_PLOTCENTERNAME_EN   "Centro de Plotagem Inkjet(V2.45)"
+    IDS_PLOTCENTERNAME      "Richpeace Magic Inkjet Plotcenter(V2.45)"
+    IDS_STRING120_EN        "Conectado"
+    IDS_STRING106_EN        "N?o p?de abrir o arquivo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING108_EN        "N?o ¨¦ um arquivo HPGL!"
+    IDS_PDSTRANSMIT_EN      "Imprimindo"
+    IDS_PDSWAIT_EN          "Aguardando"
+    IDS_PDSPAUSE_EN         "Pausar"
+    IDS_STRING114_EN        "Espa?o ¨¤ direita:"
+    IDS_STRING115_EN        "Erro na conex?o!"
+    IDS_STRING116_EN        "Selecione spray adjacentes!"
+    IDS_STRING117_EN        "Selecione ao menos um spray!"
+    IDS_STRING118_EN        "A transmiss?o n?o terminou, n?o pode cortar a conex?o!"
+    IDS_STRING154           "Start Point:"
+    IDS_STRING154_EN        "Inicio:"
+    IDS_STRING156           "Copies:"
+    IDS_STRING156_EN        "C¨®pias:"
+    IDS_STRING158           "Plot"
+    IDS_STRING158_EN        "Plotar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING160           "Rotating 90 degree"
+    IDS_STRING160_EN        "Rotacionar 90 graus"
+    IDS_STRING162           "Mark space:"
+    IDS_STRING162_EN        "Entre Riscos:"
+    IDS_STRING164           "Plot space:"
+    IDS_STRING164_EN        "Espado de plotagem:"
+    IDS_STRING166           "Paper Width"
+    IDS_STRING166_EN        "Largura do papel"
+    IDS_STRING168           "Border and Space"
+    IDS_STRING168_EN        "Borda e Espa?os"
+    IDS_STRING170           "Plotter Error correct"
+    IDS_STRING170_EN        "Corre??o de plotagem"
+    IDS_STRING172           "1m Export:"
+    IDS_STRING172_EN        "1 metro =:"
+    IDS_STRING174           "Setup Line Width"
+    IDS_STRING174_EN        "Largura da linha"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING176           "Width:"
+    IDS_STRING176_EN        "Largura:"
+    IDS_STRING178           "pixel"
+    IDS_STRING178_EN        "pixel"
+    IDS_STRING180           "OK"
+    IDS_STRING180_EN        "Salvar"
+    IDS_STRING182           "Cancel"
+    IDS_STRING182_EN        "Cancelar"
+    IDS_STRING184           "About PlotCenter"
+    IDS_STRING184_EN        "Sobre o PlotCenter"
+    IDS_STRING186           "Copyright (C) 2012"
+    IDS_STRING186_EN        "Copyright (C) 2012"
+    IDS_STRING188           "Date:"
+    IDS_STRING188_EN        "Date:"
+    IDS_STRING190           "Network Setup"
+    IDS_STRING190_EN        "Configura??o da rede"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING192           "Setup plotter IP adress"
+    IDS_STRING192_EN        "Endere?o de IP do plotter"
+    IDS_STRING194           "RemoteIP:"
+    IDS_STRING194_EN        "RemoteIP:"
+    IDS_STRING196           "SubnetMask:"
+    IDS_STRING196_EN        "Sub-m¨¢scara:"
+    IDS_STRING198           "GatewayIP:"
+    IDS_STRING198_EN        "Gateway:"
+    IDS_STRING200           "Plot Setup"
+    IDS_STRING200_EN        "Configura??o de Plotagem"
+    IDS_STRING202           "Plotter Setup"
+    IDS_STRING202_EN        "Configura??o do Plotter"
+    IDS_STRING204           "Select print style"
+    IDS_STRING204_EN        "Selecionar estilo de impress?o"
+    IDS_STRING206           "Mono-dir"
+    IDS_STRING206_EN        "Mono-dir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING208           "Bi-dir"
+    IDS_STRING208_EN        "Bi-dir"
+    IDS_STRING210           "Enable heads"
+    IDS_STRING210_EN        "Enable heads"
+    IDS_STRING212           "Spray1"
+    IDS_STRING212_EN        "Spray1"
+    IDS_STRING214           "Spray2"
+    IDS_STRING214_EN        "Spray2"
+    IDS_STRING216           "Spray3"
+    IDS_STRING216_EN        "Spray3"
+    IDS_STRING218           "Spray4"
+    IDS_STRING218_EN        "Spray4"
+    IDS_STRING220           "Bidirectional printing error setup"
+    IDS_STRING220_EN        "Bidirectional printing error setup"
+    IDS_STRING222           "Shift Error:"
+    IDS_STRING222_EN        "Shift Error:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING224           "Plot Width:"
+    IDS_STRING224_EN        "Largura de plotagem::"
+    IDS_STRING226           "Printing Error"
+    IDS_STRING226_EN        "Teste de plotagem"
+    IDS_STRING228           "Error between sprays setup"
+    IDS_STRING228_EN        "Erro entre spray"
+    IDS_STRING230           "Shift Error 1/2:"
+    IDS_STRING230_EN        "Deslocar 1/2::"
+    IDS_STRING232           "Shift Error 2/3:"
+    IDS_STRING232_EN        "Deslocar 2/3:"
+    IDS_STRING234           "Shift Error 3/4:"
+    IDS_STRING234_EN        "Deslocar 3/4:"
+    IDS_STRING236           "Overlap Error 1/2:"
+    IDS_STRING236_EN        "Overlap Error 1/2:"
+    IDS_STRING238           "Overlap Error 2/3:"
+    IDS_STRING238_EN        "Overlap Error 2/3:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING240           "Sobreposição 3/4:"
+    IDS_STRING240_EN        "Sobreposição 3/4:"
+    IDS_STRING242           "Error Between Sprays"
+    IDS_STRING242_EN        "Erro entre spray"
+    IDS_STRING244           "Directory Browser"
+    IDS_STRING244_EN        "Diret¨®rios"
+    IDS_STRING246           "Transmit:"
+    IDS_STRING246_EN        "Transmitir:"
+    IDS_COLUMN6             "State"
+    IDS_COLUMN6_EN          "Status"
+    IDS_STRING250           "Setup failure"
+    IDS_STRING250_EN        "Falha na configura??o!"
+    IDS_STRING252           "Style of printing setup failure!"
+    IDS_STRING252_EN        "Falha na configura??o do estilo de impress?o!"
+    IDS_STRING254           "Select spray failure!"
+    IDS_STRING254_EN        "Falha na sele??o do spray!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING320           "Error setup:"
+    IDS_STRING320_EN        "Configura??o de erro:"
+    IDS_STRING322           "Printing Error"
+    IDS_STRING322_EN        "Impress?o de erro"
+    IDS_STRING324           "Select start mode"
+    IDS_STRING324_EN        "Selecionar modo de inicio"
+    IDS_STRING326           "Auto print"
+    IDS_STRING326_EN        "Imprimir automaticamente"
+    IDS_COLUMN7             "Modifiy time"
+    IDS_COLUMN7_EN          "Data de modifica??o"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING256           "Error between sprays setup failure!!"
+    IDS_STRING256_EN        "Falha na configura??o do erro entre sprays!"
+    IDS_STRING258           "Printing error setup failure!"
+    IDS_STRING258_EN        "Falha na impress?o do erro de configura??o!"
+    IDS_STRING260           "Plot error setup failure!"
+    IDS_STRING260_EN        "Falha na configura??o de plotagem!"
+    CG_IDS_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_STRING263           "The job is not completed yet , save it now?"
+    IDS_STRING263_EN        "Essa plotagem ainda n?o est¨¢ completa, salvar??"
+    ID_DELETEFILE2          "Delete Files"
+    ID_DELETEFILE2_EN       "Deletar arquivos"
+    IDS_STRING267           "The plot is out of range!"
+    IDS_STRING267_EN        "A plotagem est¨¢ fora de alcance!"
+    IDS_STRING269           "1 Square meter"
+    IDS_STRING269_EN        "Quadrado de 1 metro"
+    IDS_STRING271           "Printing continue?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING271_EN        "Imprimindo, continuar?"
+    IDS_STRING273           "Fixed-point:"
+    IDS_STRING273_EN        "Ponto Fixo:"
+    IDS_STRING275           "NO"
+    IDS_STRING275_EN        "N?o"
+    IDS_STRING277           "Yes"
+    IDS_STRING277_EN        "Sim"
+    IDS_STRING279           "Erase this job?"
+    IDS_STRING279_EN        "Apagar este trabalho??"
+    IDS_STRING281           "Reminder"
+    IDS_STRING281_EN        "Lembrete"
+    IDS_STRING283           "History"
+    IDS_STRING283_EN        "Hist¨®rico"
+    IDS_STRING285           "Clear"
+    IDS_STRING285_EN        "Limpar"
+    IDS_HCOLUMN1            "Start Date/Time"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HCOLUMN1_EN         "Data/hora de inicio"
+    IDS_HCOLUMN2            "End Time"
+    IDS_HCOLUMN2_EN         "Fim"
+    IDS_HCOLUMN3            "Percent"
+    IDS_HCOLUMN3_EN         "Porcentagem"
+    IDS_STRING293           "Setup Success"
+    IDS_STRING293_EN        "Salvo com sucesso!"
+    IDS_STRING295           "Don't print the file of AutoPlotDir!"
+    IDS_STRING295_EN        "N?o imprime arquivo no diret¨®rio autom¨¢tico!"
+    IDS_STRING297           "Use vector font"
+    IDS_STRING297_EN        "Usar fonte vetorial"
+    IDS_STRING299           "Start point is too big"
+    IDS_STRING299_EN        "O inicio ¨¦ muito grande!"
+    IDS_STRING301           "USB don't connect"
+    IDS_STRING301_EN        "USB n?o est¨¢ conectado!"
+    IDS_STRING303           "Unrecognizable USB device!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING303_EN        "USB n?o reconhecido!"
+    IDS_STRING305           "Read file error!"
+    IDS_STRING305_EN        "Erro de leitura do arquivo!"
+    IDS_STRING307           "Output parameter success!"
+    IDS_STRING307_EN        "Parametro de sa¨ªda com sucesso.!"
+    IDS_STRING309           "Don't verify the printting file!"
+    IDS_STRING309_EN        "N?o verificar o arquivo de impress?o!"
+    IDS_STRING311           "The value is out of range!"
+    IDS_STRING311_EN        "O valor est¨¢ fora do alcance!"
+    IDC_STARTORSTOP         "Start"
+    IDC_STARTORSTOP_EN      "Inicio"
+    IDS_STRING315           "Stop"
+    IDS_STRING315_EN        "Fim"
+    IDS_STRING317           "Track paper error setup"
+    IDS_STRING317_EN        "Configura??o de erro de tra??o"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPENFILE_EN          "Abrir arquivo"
+    ID_UPFILE               "Move up"
+    ID_UPFILE_EN            "Mover acima"
+    ID_DOWNFILE             "Move down"
+    ID_DOWNFILE_EN          "Mover abaixo"
+    ID_PAUSEFILE2           "Pause"
+    ID_PAUSEFILE2_EN        "Pausar"
+    ID_RESTARTFILE2         "Restart Printing"
+    ID_RESTARTFILE2_EN      "Reiniciar impress?o"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPENFILE             "Open file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PLOTCENTERHELP2      "Help"
+    ID_PLOTCENTERHELP2_EN   "Ajuda"
+    ID_BUTTONPREVIEW        "Preview"
+    ID_BUTTONPREVIEW_EN     "Visualizar"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PlotCenter.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

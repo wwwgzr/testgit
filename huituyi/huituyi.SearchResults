@@ -1,0 +1,32 @@
+---- gl_iPulseNumY Matches (34 in 7 files) ----
+CH375.c (plotterv3.44\src):					else if (gl_iPulseNumY < 0)
+Control.c (plotterv3.44\src):					if (gl_iPulseNumY < 0)
+Control.c (plotterv3.44\src):						DriveSprinkler(0,gl_iPulseNumY);//驱动Y轴
+Control.c (plotterv3.44\src):						gl_iAxisYPos += gl_iPulseNumY;
+Control.c (plotterv3.44\src):						gl_iPulseNumY = -gl_iPulseNumY;
+Control.c (plotterv3.44\src):				DriveSprinkler(0,gl_iPulseNumY);//驱动Y轴
+Control.c (plotterv3.44\src):				gl_iAxisYPos += gl_iPulseNumY;
+Control.c (plotterv3.44\src):					gl_iPulseNumY = -gl_iPulseNumY;//反向
+Control.c (plotterv3.44\src):					DriveSprinkler(gl_iPulseNumX,-gl_iPulseNumY);//驱动Y轴回原点
+Control.c (plotterv3.44\src):					gl_iAxisYPos -= gl_iPulseNumY;
+Extern.h (plotterv3.44\inc):extern int		gl_iPulseNumY;
+Flash.c (plotterv3.44\src):			gl_iPulseNumY = 0;
+Flash.c (plotterv3.44\src):				gl_iPulseNumY = gl_iYDotSpace12;
+Flash.c (plotterv3.44\src):				gl_iPulseNumY = gl_iYDotSpace23;
+Flash.c (plotterv3.44\src):				gl_iPulseNumY = gl_iYDotSpace34;
+Flash.c (plotterv3.44\src):				gl_iPulseNumY = gl_iYDotSpace12 + gl_iYDotSpace23;
+Flash.c (plotterv3.44\src):				gl_iPulseNumY = gl_iYDotSpace23 + gl_iYDotSpace34;
+Flash.c (plotterv3.44\src):			gl_iPulseNumY = gl_iYDotSpace12 + gl_iYDotSpace23 + gl_iYDotSpace34;
+Flash.c (plotterv3.44\src):			gl_iPulseNumY = 0;
+Flash.c (plotterv3.44\src):	gl_iPulseNumY = (gl_iPulseNumY + gl_iGraphWidth * 8 + AdditionDot * 2 + OriginalSideDot + MotorSideDot + 320) * DotPulseNum;
+Global.c (plotterv3.44\src):int		gl_iPulseNumY;												//Y轴驱动脉冲数
+Lcd.c (plotterv3.44\src):		if ((gl_iPulseNumY < 0) && (gl_cPrintStatus != 0x10))
+Lcd.c (plotterv3.44\src):			DriveSprinkler(0,gl_iPulseNumY);//驱动Y轴
+Lcd.c (plotterv3.44\src):			gl_iAxisYPos += gl_iPulseNumY;
+Lcd.c (plotterv3.44\src):			gl_iPulseNumY = -gl_iPulseNumY;
+Lcd.c (plotterv3.44\src):			if (gl_iPulseNumY > 0)
+Lcd.c (plotterv3.44\src):			if ((gl_iPulseNumY < 0) && (gl_cPrintStatus != 0x10))
+Lcd.c (plotterv3.44\src):				DriveSprinkler(0,gl_iPulseNumY);//驱动Y轴
+Lcd.c (plotterv3.44\src):				gl_iAxisYPos += gl_iPulseNumY;
+Lcd.c (plotterv3.44\src):				gl_iPulseNumY = -gl_iPulseNumY;
+Network.c (plotterv3.44\src):					else if (gl_iPulseNumY < 0)

@@ -1,0 +1,106 @@
+E:\lasercuttermachine\LasercuttingmachineUI\GraphicModule\obj\Debug\GraphicModule.exe
+E:\lasercuttermachine\LasercuttingmachineUI\GraphicModule\obj\Debug\GraphicModule.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.dll
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.dll
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.dll
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.dll
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.xml
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csprojResolveAssemblyReference.cache
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.Properties.Resources.resources
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csproj.GenerateResource.Cache
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Load.resources
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\test.exe
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\test.pdb
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\test.exe
+E:\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\test.pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).exe.config
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\激光切割机(一体机部分).exe
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\激光切割机(一体机部分).pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).exe
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.dll
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.dll
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.dll
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.dll
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.pdb
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.xml
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csprojResolveAssemblyReference.cache
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.ButtonText.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.Form1.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_AddCutFile.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_AddFile.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_EditCutPath.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_EditUser.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Load.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_MenuPanel.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_NewButton.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_OpenProject.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_OperationPanel.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_PageMonitor.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Project.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetLaser.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetManualFeed.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetOrigin.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SettingParam.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SysSet.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.PageMonitor.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.PaintingPanel.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.Properties.Resources.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.UserButtonPanel.resources
+E:\MyProject\lasercuttermachine - 副本 (3)\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csproj.GenerateResource.Cache
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).exe.config
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).exe
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\激光切割机(一体机部分).pdb
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Data.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Deployment.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Web.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Web.Services.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Windows.Forms.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\System.Xml.dll
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommonModule.pdb
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\CommunicationModule.pdb
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\DrawGraphicsDxf.pdb
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.pdb
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\bin\Debug\netDxf.xml
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csprojResolveAssemblyReference.cache
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.AlertInfoControl.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.ButtonText.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.Form1.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_AddCutFile.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_AddFile.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_AlertInfo.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_EditCutPath.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_EditUser.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Info.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Load.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_MenuPanel.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_NewButton.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_OpenProject.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_OperationPanel.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_PageMonitor.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_Project.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetLaser.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetManualFeed.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SetOrigin.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SettingParam.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.frm_SysSet.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.PageMonitor.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.PaintingPanel.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.Properties.Resources.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.UserButtonPanel.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.UserSetParam.resources
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\LasercuttingmachineUI.csproj.GenerateResource.Cache
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\激光切割机(一体机部分).exe
+E:\MyProject\lasercuttermachine\LasercuttingmachineUI\LasercuttingmachineUI\obj\Debug\激光切割机(一体机部分).pdb

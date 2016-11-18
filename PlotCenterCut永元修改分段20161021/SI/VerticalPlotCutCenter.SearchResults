@@ -1,0 +1,4 @@
+---- ReadIniFile Matches (3 in 2 files) ----
+PlotCenter.cpp (d:\workarea\立式切割\plotcentercut):	ReadIniFile();
+PlotCenter.cpp (d:\workarea\立式切割\plotcentercut):void CPlotCenterApp::ReadIniFile()
+PlotCenter.h (d:\workarea\立式切割\plotcentercut):	void ReadIniFile();

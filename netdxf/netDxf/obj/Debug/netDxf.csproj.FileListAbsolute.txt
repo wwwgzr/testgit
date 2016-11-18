@@ -1,0 +1,12 @@
+D:\Downloads\netdxf\netdxf\netDxf\bin\Debug\netDxf.xml
+D:\Downloads\netdxf\netdxf\netDxf\bin\Debug\netDxf.dll
+D:\Downloads\netdxf\netdxf\netDxf\bin\Debug\netDxf.pdb
+D:\Downloads\netdxf\netdxf\netDxf\obj\Debug\netDxf.csprojResolveAssemblyReference.cache
+D:\Downloads\netdxf\netdxf\netDxf\obj\Debug\netDxf.dll
+D:\Downloads\netdxf\netdxf\netDxf\obj\Debug\netDxf.pdb
+E:\MyProject\netdxf\netDxf\bin\Debug\netDxf.xml
+E:\MyProject\netdxf\netDxf\bin\Debug\netDxf.dll
+E:\MyProject\netdxf\netDxf\bin\Debug\netDxf.pdb
+E:\MyProject\netdxf\netDxf\obj\Debug\netDxf.csprojResolveAssemblyReference.cache
+E:\MyProject\netdxf\netDxf\obj\Debug\netDxf.dll
+E:\MyProject\netdxf\netDxf\obj\Debug\netDxf.pdb
